@@ -1,0 +1,15 @@
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.sourcelink.json
+D:\Code\ntgroup\api\bin\Debug\net8.0\api.exe
+D:\Code\ntgroup\api\bin\Debug\net8.0\api.deps.json
+D:\Code\ntgroup\api\bin\Debug\net8.0\api.runtimeconfig.json
+D:\Code\ntgroup\api\bin\Debug\net8.0\api.dll
+D:\Code\ntgroup\api\bin\Debug\net8.0\api.pdb
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.dll
+D:\Code\ntgroup\api\obj\Debug\net8.0\refint\api.dll
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.pdb
+D:\Code\ntgroup\api\obj\Debug\net8.0\api.genruntimeconfig.cache
+D:\Code\ntgroup\api\obj\Debug\net8.0\ref\api.dll

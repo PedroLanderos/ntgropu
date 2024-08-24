@@ -1,0 +1,1 @@
+dotnet new console -o api --use-program-main
