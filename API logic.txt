@@ -1,0 +1,63 @@
+The goal is to create an API using .NET core technology that allows the user to remove a number from the first 100 natural numbers.
+
+
+Proposed way: 
+Get the summatory of the 100 numbers using the gauss formula. Explanation:
+
+Let's suppose that we have a list of numbers from 1 to 4 (1, 2, 3, 4):
+
+The traditional way is 1+2+3+4 that is equal to 10 (let's call it R) but that will be lineal time, the algorithm would have to go through all the numbers.
+But if we see, the sume of 1 + 4 (let's call it position 1 and position n - 1) will be 5 (let's call 5 s).
+If we repeat the process but now with position 2 and position n - 2, we see that the result is also 5 or as we called it, s. 
+Then we realized that there is a pattern, but let's try it a little higher, with the first 20 numbers:
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 the result S will be 210
+
+so let's prove our premise again: 
+
+1 + 20 = 21
+2 + 19 = 21
+3 + 18 = 21
+...
+
+and so it goes...
+
+then we realized the process will be repeating itself 10 times or 20 / 2 or n / 2 times
+Now that our premise is proved we could say that if we add n (the bigger number) that is 20 plus 1 (the smallest number) and then multiply it by 2 we can get the value of the sum. translating the logic a tentative formula could be: 
+
+(n + 1) (n / 2) or ((n)(n+1)) / 2
+
+let's try it with list of the first 20 numbers:
+((20)(20 + 1)) / 2  --->  ((20)(21)) / 2)  --->   (420 / 2)  --->   210, and 210 is the expected result
+
+but let's try it with another list, this time and odd  list:
+
+A list with the first 9 numbers, 
+
+1, 2, 3, 4, 5, 6, 7, 8, 9
+
+the sum is = 45
+
+1 + 9 = 10
+2 + 8 = 10
+3 + 7 = 10
+4 + 6 = 10
+5 + ? = 5 (as there is no other number the addition will be with 0)
+
+but our list is odd, then the process would not repeat n - 1 times? Let's see it:
+
+9 / 2 = 4.5, and we see that our process repeats 4 times then let's try the formula;
+
+((n + 1) (n)) / 2  --->  ((10)(9) / 2)  --->  (90 / 2) = 45. It works.
+
+
+ 
+
+
+
+
+
+
+
+
+
